@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8u3xn#e=#a8snb*9152%!$f#xfcv13&6*iv=-3@l$vazk8+ztx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #During deploying changed True-False
 
-ALLOWED_HOSTS = ['hopedjango.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -157,6 +157,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com' #for gmail
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'umutcaltinsoy@gmail.com'
-EMAIL_HOST_PASSWORD = 'BesiktasBesiktas1903'
+EMAIL_HOST_USER = 'YOUR_EMAİL'
+EMAIL_HOST_PASSWORD = 'YOUR_EMAİL_PASSWORD'
+
 
